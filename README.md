@@ -57,7 +57,7 @@ Majd a fenti fájlba
 ```
 
 Majd public mappába index.html
-
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -70,5 +70,6 @@ Majd public mappába index.html
     <h1 class="text-4xl font-bold text-center text-blue-500">First taste of tailwind</h1>
   </body>
 </html>
+```
 
 https://www.youtube.com/watch?v=bxmDnn7lrnk
