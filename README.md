@@ -49,11 +49,12 @@ Majd a fenti fájlba
 @tailwind utilities;
 
 És a package.json -ba kell script is
-
+```javascript
 "scripts": {
     "build": "postcss css/tailwind.css -o public/build/tailwind.css"
     "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
 }
+```
 
 Majd public mappába index.html
 
