@@ -37,16 +37,19 @@ If you're interested in contributing to Tailwind CSS, please read our [contribut
 ## Installálás
 
 Node package manager segítségével
+```javascript
 npm init -y
 npm install -D tailwindcss@latest postcss@latest autoprefixer@latest postcss-cli@latest cssnano@latest onchange@latest
 npx tailwindcss init
-
+```
 src mappa létrehozás és benne egy tailwind.css
 
 Majd a fenti fájlba
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
 
 És a package.json -ba kell script is
 ```javascript
