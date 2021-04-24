@@ -32,3 +32,42 @@ For casual chit-chat with others using the framework:
 ## Contributing
 
 If you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindcss/tailwindcss/blob/master/.github/CONTRIBUTING.md) **before submitting a pull request**.
+
+
+##installálás
+
+Node package manager segítségével
+npm init -y
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest postcss-cli@latest cssnano@latest onchange@latest
+npx tailwindcss init
+
+src mappa létrehozás és benne egy tailwind.css
+
+Majd a fenti fájlba
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+És a package.json -ba kell script is
+
+"scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
+}
+
+Majd public mappába index.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="build/tailwind.css" />
+  </head>
+  <body>
+    <h1 class="text-4xl font-bold text-center text-blue-500">First taste of tailwind</h1>
+  </body>
+</html>
+
+https://www.youtube.com/watch?v=bxmDnn7lrnk
