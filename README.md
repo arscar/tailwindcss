@@ -34,7 +34,7 @@ For casual chit-chat with others using the framework:
 If you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindcss/tailwindcss/blob/master/.github/CONTRIBUTING.md) **before submitting a pull request**.
 
 
-##installálás
+## Installálás
 
 Node package manager segítségével
 npm init -y
